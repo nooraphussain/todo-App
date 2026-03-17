@@ -53,6 +53,7 @@ npm start
 
 
 ## Folder Structure
+```bash
 todo-App/
 ├─ src/
 │  ├─ components/
@@ -64,7 +65,7 @@ todo-App/
 ├─ package.json
 ├─ tailwind.config.js
 └─ README.md
-
+```
 
 ## React Concepts Learned in This App
 ### 1️⃣ useState
