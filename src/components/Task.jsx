@@ -5,7 +5,7 @@ const Task = ({ task, onToggle, onDelete }) => {
 
   return (
     <div
-    className="flex items-center gap-4 bg-white border border-gray-400 rounded-2xl px-5 py-4 hover:shadow-sm transition-shadow"
+    className="flex items-center gap-4 bg-white border border-gray-900 rounded-2xl px-5 py-4 hover:shadow-sm transition-shadow"
     onMouseEnter={() => setHovered(true)}
     onMouseLeave={() => setHovered(false)}
     >
@@ -24,7 +24,7 @@ const Task = ({ task, onToggle, onDelete }) => {
       </button>
 
       {/* Task text */}
-      <span className={`flex-1 text-sm ${task.completed ? "line-through text-gray-500" : "text-gray-1200"}`}>
+      <span className={`flex-1 text-sm ${task.completed ? "line-through text-gray-700" : "text-gray-1300"}`}>
         {task.text}
       </span>
 

@@ -13,9 +13,9 @@ const Input = ({taskList, setTaskList, addTask}) => {
 
   return (
     <>
-       <div className="flex gap-3 w-2/5">
+       <div className="flex gap-3 w-full">
        <input
-            className="flex-1 bg-gray-100 rounded-xl px-5 py-3.5 text-sm text-gray-500 placeholder-gray-400 outline-none"
+            className="flex-1 bg-gray-100 rounded-xl px-5 py-3.5 text-sm text-gray-1000 placeholder-gray-400 outline-none"
             type="text"
             placeholder="Add a new task..."
             value={input}
