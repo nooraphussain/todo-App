@@ -4,6 +4,12 @@ A simple **React-based to-do list application** to manage and track tasks with p
 
 ---
 
+## Live Demo 🌐
+
+Check out the live Todo App here: [https://my-tasks-hazel-rho.vercel.app](https://my-tasks-hazel-rho.vercel.app)
+
+---
+
 ## Features
 
 - Add tasks with **title**, **description**, **priority**, and **due date**  
